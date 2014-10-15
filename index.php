@@ -16,10 +16,10 @@ var mygallery=new fadeSlideShow({
 	wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
 	dimensions: [890, 311], //width/height of gallery in pixels. Should reflect dimensions of largest image
 	imagearray: [
-		["http://localhost/kafe_tarcin/img/main1.jpg", "", "", ""],
-		["http://localhost/kafe_tarcin/img/main2.jpg", "", "", ""],
-		["http://localhost/kafe_tarcin/img/main3.jpg"],
-		["http://localhost/kafe_tarcin/img/main4.jpg", "", "", ""] //<--no trailing comma after very last image element!
+		["http://rocar.freeiz.com/cafe_tarcin/img/main1.jpg", "", "", ""],
+		["http://rocar.freeiz.com/cafe_tarcin/img/main2.jpg", "", "", ""],
+		["http://rocar.freeiz.com/cafe_tarcin/img/main3.jpg"],
+		["http://rocar.freeiz.com/cafe_tarcin/img/main4.jpg", "", "", ""] //<--no trailing comma after very last image element!
 	],
 	displaymode: {type:'auto', pause:4000, cycles:0, wraparound:false},
 	persist: false, //remember last viewed slide and recall within same session?
